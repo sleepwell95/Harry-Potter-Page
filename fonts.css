@@ -1,0 +1,92 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.newspaper-headline {
+    text-align: center;
+    font-size: 8em;
+    letter-spacing: 0.25em;
+    font-family: "New Rocker", cursive;
+    margin: 0;
+}
+
+article > h3 {
+    font-family: "Fondamento", cursive;
+    font-size: 1.5em;
+}
+
+.big-headline {
+    font-size: 3em;
+    font-family: "Fondamento", cursive;
+    letter-spacing: 0.175em;
+    text-align: center;
+    margin: 0;
+}
+
+.arrow {
+    display: none;
+}
+
+.navbar {
+    font-family: "Fondamento", cursive;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 480px) {
+    .newspaper-headline {
+        font-size: 2.5em;
+    }
+
+    .big-headline {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 560px) {
+    .newspaper-headline {
+        font-size: 3.5em;
+    }
+
+    .big-headline {
+        font-size: 1.75em;
+    }
+}
+@media screen and (min-width: 720px) {
+    .newspaper-headline {
+        font-size: 4.5em;
+    }
+
+    .big-headline {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .newspaper-headline {
+        font-size: 6em;
+    }
+
+    .big-headline {
+        font-size: 3em;
+    }
+    .arrow {
+        display: block;
+        height: 4em;
+    }
+}
+
+@media screen and (min-width: 1340px) {
+    .newspaper-headline {
+        font-size: 8em;
+    }
+
+    .big-headline {
+        font-size: 4.5em;
+        letter-spacing: 0.175em;
+    }
+    .arrow {
+        height: 5.5em;
+    }
+}

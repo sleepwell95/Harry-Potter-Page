@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+@media screen and (min-width: 720px) {
+    /* Grid konteinerio paktimas ekranui sumažėjus iki 720px pločio*/
+    .grid-container {
+        grid-template-columns: 3fr 7fr;
+    }
+
+    /* Article1 pozicijos pakitimas ekranui sumažėjus iki 720px pločio*/
+    #article1 {
+        grid-row: 1 / span 3;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .grid-container {
+        grid-template-columns: 3fr 5fr 2fr;
+    }
+
+    #article3 {
+        grid-column: 3;
+        grid-row: 1 / span 2;
+    }
+}
+
+@media screen and (min-width: 1340px) {
+    .grid-container {
+        grid-template-columns: 2fr 3fr 1fr;
+    }
+
+    #article3 {
+        grid-row: 1 / 4;
+    }
+}

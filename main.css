@@ -1,0 +1,38 @@
+body {
+    margin: 50px;
+    background-image: url(img/grunge_paper.jpg);
+}
+
+article * > {
+    margin: 0;
+}
+
+.float-right {
+    float: right;
+    margin-left: 10px;
+}
+.float-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.width-100 {
+    width: 100%;
+}
+.width-50 {
+    width: 50%;
+}
+
+.bottom-bordered {
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+}
+
+.top-bordered {
+    padding-top: 5px;
+    border-top: 3px solid black;
+}
+
+.arrow {
+    width: 150px;
+}
